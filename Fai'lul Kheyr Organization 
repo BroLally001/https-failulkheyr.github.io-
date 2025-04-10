@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fai'lul-Kheyr Organization</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6fa;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #002147;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #003366;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x200') no-repeat center center/cover;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #e6ecf5;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #002147;
+    }
+    .gallery, .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img, .team img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #002147;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn-donate {
+      display: inline-block;
+      background-color: #0057b7;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fai'lul-Kheyr Organization</h1>
+    <p>Leaves No One Behind</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#projects">Projects</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+    <a href="#donate">Donate</a>
+  </nav>
+
+  <div class="hero"></div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Fai'lul-Kheyr Organization is based in Kenya – Mombasa. We are a community-driven organization dedicated to helping the needy, orphans, and vulnerable individuals. Our mission is to create a better community for all.</p>
+    <ul>
+      <li>Volunteering</li>
+      <li>Betterment of the Community</li>
+      <li>Raising Awareness</li>
+      <li>Fundraising</li>
+      <li>Project Improvements and Implementation</li>
+      <li>All Things Related to Humanity</li>
+    </ul>
+    <p>We are not a political organization. We encourage everyone to respect one another and refrain from promoting any political agendas.</p>
+    <p>May Allah (S.W.T) guide us & give us the ability and strength to help all the needy and the entire community. Ameen Thuma Ameen.</p>
+  </section>
+
+  <section class="section gallery" id="gallery">
+    <h2>Gallery</h2>
+    <img src="https://via.placeholder.com/300" alt="Gallery Image 1">
+    <img src="https://via.placeholder.com/300" alt="Gallery Image 2">
+    <img src="https://via.placeholder.com/300" alt="Gallery Image 3">
+    <img src="https://via.placeholder.com/300" alt="Gallery Image 4">
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <p>Coming soon: Detailed information about our past and ongoing projects to uplift the community.</p>
+  </section>
+
+  <section class="section team" id="team">
+    <h2>Our Team</h2>
+    <img src="https://via.placeholder.com/300" alt="Team Member 1">
+    <img src="https://via.placeholder.com/300" alt="Team Member 2">
+    <img src="https://via.placeholder.com/300" alt="Team Member 3">
+    <img src="https://via.placeholder.com/300" alt="Team Member 4">
+    <p>Add team member names and roles here.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> failulkheyr@gmail.com</p>
+    <p><strong>Phone:</strong> +254 798 540954 - Karama Shee (Founder)</p>
+    <p><strong>WhatsApp:</strong> +254 781 200218 - Brother Lally</p>
+    <p><strong>Location:</strong> Mombasa, Kenya</p>
+  </section>
+
+  <section class="section" id="donate">
+    <h2>Support Our Mission</h2>
+    <p>Your donation can make a real difference in the lives of those in need.</p>
+    <a href="https://example.com/donate" class="btn-donate">Donate Now</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fai'lul-Kheyr Organization. All rights reserved.</p>
+  </footer>
+</body>
+</html>
